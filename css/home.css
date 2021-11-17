@@ -1,0 +1,53 @@
+header img, table {
+    display: inline;
+    float: left;
+}
+header table tr {
+    display: table-row;
+    text-align: center;
+}
+header th {
+    font-weight: bolder;
+    font-size: 70px;
+}
+header tr {
+    font-weight: normal;
+    font-size: 30px;
+}
+#nav {
+    float:right;
+    font-size: 30px;
+    text-decoration: none;
+}
+header ul {
+    list-style-type: none;
+}
+
+header ol {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+header li {
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 8px;
+}
+
+.sub-menu {
+    display: none;
+    float: top;
+}
+
+.menu-holder:hover .sub-menu {
+    display: block;
+}
+
+.menu-item {
+
+}
